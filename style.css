@@ -261,7 +261,7 @@ ul.styled li a:hover {
 
 #submit {
     background-color: 250, 77, 77;
-    color: white;
+    color: rgb(250, 77, 77);
     text-align: center;
     font-weight: 200;
     padding: 5px;
