@@ -17,14 +17,17 @@ p {
 
 a {
     text-decoration: none;
-    color: #008000;
+    color: #1a1a1a;
 }
 
+#sidebar a:hover {
+    color: rgb(250, 77, 77);
+}
 
 /* =====MENU===== */
 
 #menu {
-    background-color: #008000;
+    background-color: rgb(250, 77, 77);
     height: 100px;
 }
 
@@ -62,7 +65,7 @@ a {
 #header {
     padding: 60px 0 40px 0;
     text-align: center;
-    background-color: #03614A;
+    background-color: #1e1b1a;
     border: 5px solid white;
 }
 
@@ -78,21 +81,6 @@ a {
     color: white;
 }
 
-
-/* =====BANNER===== */
-
-#banner {
-    height: 300px;
-    border: 4px solid #03614A;
-    margin: 2px;
-}
-
-#banner img {
-    width: 100%;
-    height: 300px;
-}
-
-
 /* =====CONTENT-PAGE===== */
 
 #content-page {
@@ -105,7 +93,7 @@ a {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
-    color: #008000;
+    color: 
 }
 
 
@@ -256,7 +244,7 @@ ul.styled li a:hover {
     width: 100%;
     height: 130px;
     text-align: center;
-    background-color: #008000;
+    background-color: rgb(250, 77, 77);
     padding-top: 56px;
     clear: both;
 }
@@ -272,19 +260,19 @@ ul.styled li a:hover {
 /* =====CONTACT-PAGE===== */
 
 #submit {
-    background-color: #008000;
+    background-color: 250, 77, 77;
     color: white;
     text-align: center;
     font-weight: 200;
     padding: 5px;
     width: 90px;
-    border: 4px solid #363636;
+    border: 4px solid rgb(250, 77, 77);
     border-radius: 4px;
     margin-bottom: 4px;
 }
 
 #submit:hover {
-    color: rgb(250, 77, 77);
+    color: #1a1a1a;
     background-color: #363636;
     border: 4px solid rgb(250, 77, 77);
 }
